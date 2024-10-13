@@ -1,0 +1,82 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+}
+.nav{
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #789DBC;
+    color: #FFE3E3;
+}
+.new-book{
+    padding: 15px;
+    border-radius: 5px;
+    color: #1b211d;
+    background-color: #FEF9F2;
+}
+
+#libraryDisplay {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap; 
+    justify-content: center; 
+    align-items: center; 
+    min-height: 100vh; 
+    background-color: #f4f4f4; 
+}
+
+.book-card-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    gap: 15px;
+    border: 2px solid black;
+    margin: 30px;
+    justify-content: center;
+    background-color: #789DBC;
+    color: #FFE3E3;
+    width: 400px
+}
+
+.toggleReadBtn{
+    padding: 5px;
+    border-radius: 5px;
+    color: #1b211d;
+    background-color: #FEF9F2;
+
+}
+.removeBtn{
+    padding: 5px;
+    border-radius: 5px;
+    color: red;
+    background-color: #FEF9F2;
+}
+#bookFormModal{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 300px; /* Adjust the width as needed */
+
+}
+#bookForm{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.add,.cncl{
+    padding: 10px;
+    background-color: #FEF9F2;
+}
